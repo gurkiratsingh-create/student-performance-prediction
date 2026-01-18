@@ -2,5 +2,6 @@ services:
   - type: web
     name: student-performance-prediction
     env: python
+    pythonVersion: 3.11.9
     buildCommand: pip install -r requirements.txt
     startCommand: python src/app.py
